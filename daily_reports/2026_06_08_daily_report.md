@@ -13,27 +13,35 @@
 7.	Написал первую простую программу.
 8.	Завел рабочий журнал.
 9.	Создал первый ежедневный отчет.
-Какие файлы создал или изменил: Создал: 
-1. internship_danil_2026 
-2. C:\internship_danil_2026\python_basics 
-3. C:\internship_danil_2026\data
-4. C:\internship_danil_2026\notebook
-5. C:\internship_danil_2026\docs 
-6. C:\internship_danil_2026\tasks
-7. C:\internship_danil_2026\results
-8. C:\internship_danil_2026\python_basics\day_01_start.ipynb
-9. C:\internship_danil_2026\python_basics\day_01_start.py
-10. C:\internship_danil_2026\docs\daily_reports
-11. C:\internship_danil_2026\docs\daily_reports\2026_06_08_daily_report.md
+
+
+Какие файлы создал или изменил: Создал:
+1. work\python_basics\ 
+2. work\data\
+3. work\notebook\
+4. work\docs\ 
+5. work\tasks\
+6. work\results\
+7. work\python_basics\day_01_start.ipynb
+8. work\python_basics\day_01_start.py
+9. daily_reports\
+10. daily_reports\2026_06_08_daily_report.md
+
+
 Изменил: -
 Что понял: 
 1. В Python строки можно складывать как числа, в отличии от C++.
 2. Python интерпритируемый язык программирования.
 3. Что делает строка print.
 4. Как работать с VS code.
-5. Как работать с Jupyter Notebook.
+5. Как работать с PyCharm.
+6. Как работать с Jupyter Notebook.
+
+   
 Какие вопросы появились: 
 1. Для чего нужен jupyter?
+
+
 Что не получилось: Сначало не получилось работать с jupyter.
 Какие ошибки возникли: Возникали ошибки с jupyter.
 Как пытался исправить ошибки: Пытался поменять ядро.
@@ -53,6 +61,8 @@ print(3 / 2)   # division(/)
 print(3 ** 2)  # exponential(**)
 print(3 % 2)   # modulus(%)
 print(3 // 2)  # Floor division operator(//)
+
+   
 Какие новые термины выписал: 
 Термин 1: Python 
 Что означает: Интерпритируемй язык программирования созданный для написания кода.
