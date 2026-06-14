@@ -18,7 +18,7 @@ while True:
         b_side = int(input('Enter b-side: '))
         c_side = int(input('Enter c-side: '))
         half_meter = (a_side + b_side + c_side) / 2
-        area = math.sqrt(half_meter * (half_meter- a_side) * (half_meter - b_side) * (half_meter - c_side))
+        area = math.sqrt(half_meter * (half_meter - a_side) * (half_meter - b_side) * (half_meter - c_side))
         print('Triangle area: ', area)
     elif answer == 6:
         print('Cube surface area: ', 6 * int(input('Enter a cube edge length: '))**2)
