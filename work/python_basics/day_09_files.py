@@ -12,3 +12,4 @@ with open("../results/grades_analysis.txt", "w", encoding="utf-8") as file:
     for student in data:
         avg = middle_grade(student["grades"])
         file.write(f"{student['name']} | {student['grades']} | {avg:.2f}\n")
+# чтоб закинуть в пул
