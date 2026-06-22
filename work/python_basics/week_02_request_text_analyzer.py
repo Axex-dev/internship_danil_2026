@@ -42,7 +42,7 @@ with open("../data/week_02_request_analysis.txt", "r", encoding="utf-8") as file
         )
         results.append(result)
 
-with open("../results/week_02_request_analysis_result.txt", "w", encoding="utf-8") as file:
+with open("../data/week_02_request_analysis_result.txt", "w", encoding="utf-8") as file:
     for result in results:
         file.write(result + "\n")
 

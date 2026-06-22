@@ -7,7 +7,7 @@ def middle_grade(grades):
     return sum(grades) / len(grades)
 
 
-with open("../results/grades_analysis.txt", "w", encoding="utf-8") as file:
+with open("../data/grades_analysis.txt", "w", encoding="utf-8") as file:
     file.write("Name:\t Grades:\t\t Avg. grade\n")
     for student in data:
         avg = middle_grade(student["grades"])
