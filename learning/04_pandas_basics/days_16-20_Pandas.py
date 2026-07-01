@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("../data/.pandas.csv")
+df = pd.read_csv("data/.pandas.csv")
 
 print("Первые 5 строк:")
 print(df.head())

@@ -1,6 +1,3 @@
-from work.python_basics.day_03_condition import number
-
-
 def sum_nums(num1, num2):
     return num1 + num2
 print(sum_nums(int(input("введите 1 число ")), int(input("введите 2 число "))))

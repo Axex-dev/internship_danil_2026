@@ -1,11 +1,11 @@
 import json
 
-with open("../data/week_02_request_analysis_keywords.json", "r", encoding="utf-8") as file:
+with open("data/week_02_request_analysis_keywords.json", "r", encoding="utf-8") as file:
     keywords = json.load(file)
 
 
 def write_request_to_file():
-    with open("../data/week_02_request_analysis.txt", "w", encoding="utf-8") as file:
+    with open("data/week_02_request_analysis.txt", "w", encoding="utf-8") as file:
         n = int(input("Сколько заявок: "))
         for i in range(n):
             text = input(f"Заявка №{i + 1}: ")
@@ -28,7 +28,7 @@ total_requests = 0
 requests_with_keywords = 0
 results = []
 
-with open("../data/week_02_request_analysis.txt", "r", encoding="utf-8") as file:
+with open("data/week_02_request_analysis.txt", "r", encoding="utf-8") as file:
     for line in file:
         total_requests += 1
         normalized_line = normalize_text(line)
@@ -42,7 +42,7 @@ with open("../data/week_02_request_analysis.txt", "r", encoding="utf-8") as file
         )
         results.append(result)
 
-with open("../data/week_02_request_analysis_result.txt", "w", encoding="utf-8") as file:
+with open("data/week_02_request_analysis_result.txt", "w", encoding="utf-8") as file:
     for result in results:
         file.write(result + "\n")
 
